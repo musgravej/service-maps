@@ -48,7 +48,7 @@ def get_list_lat_lon(zip_list):
 def get_lat_lon_zip(zipcode):
     """
     Returns a dictionary with latitude and longitude of Zipcode, LIMIT 100 ZIP codes!
-    :param zipcode:zip code
+    :param zipcode: zip code
     :return: dict response {'location:zip, latlng: {lat:lat, lng:lng}}
     """
     api = Api().key
